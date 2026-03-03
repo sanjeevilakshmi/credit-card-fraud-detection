@@ -1,0 +1,123 @@
+{% extends 'SProvider/Header.html' %}
+{% block researchblock %}
+
+
+<link rel="icon" href="images/icon.png" type="image/x-icon" />
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+
+
+		<style>
+			body {background-color:#000000;}
+			.container-fluid {padding:50px;}
+			.container{background-color:white;padding:50px;   }
+			#title{font-family: 'Fredoka One', cursive;
+}
+			.text-uppercase{
+			font-family: 'Righteous', cursive;
+
+			}
+			.tweettext{
+
+    border: 2px solid yellowgreen;
+    width: 1104px;
+    height: 442px;
+    overflow: scroll;
+    background-color:;
+}
+		.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style12 {color: #FFFF00; font-weight: bold; }
+        </style>
+
+	<body>
+	<div class="container-fluid">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-5">
+ 					<form role="form" method="POST" >
+						{% csrf_token %}
+						<fieldset>
+							<p class="text-uppercase pull-center style1">View Financial Fraud Prediction Type Details  !!! </p>
+                            <hr>
+                            <div class="tweettext">
+                               <table border="5" bordercolor="#FF00FF">
+
+
+                                   <tr>
+
+                                      <td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">trans_date</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">cc_num</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">category</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">AMT_TRANS</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">first</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">last</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">gender</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">street</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">city</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">state</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">zip</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">User_Lat</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">User_Long</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">city_pop</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">Job</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">Dob</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">trans_num</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">merch_lat</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">merch_long</span></div></td>
+<td bgcolor="#FF0000"><div align="center" class="style12"><span class="style8 style6">Prediction</span></div></td>
+
+
+                      </tr>
+                            {% for object in list_objects %}
+                      <tr>
+                          <td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.trans_date}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.cc_num}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.category}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.AMT_TRANS}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.first}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.last}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.gender}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.street}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.city}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.state}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.zip}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.User_Lat}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.User_Long}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.city_pop}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.Job}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.Dob}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.trans_num}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.merch_lat}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.merch_long}}</td>
+<td bgcolor="#FFFFFF" style="color:red; font-size:20px; font-family:fantasy" >{{object.Prediction}}</td>
+
+
+                        </tr>
+
+                                        {% endfor %}
+                      </table>
+
+                            </div>
+
+
+
+
+						</fieldset>
+					</form>
+				</div>
+
+				<div class="col-md-2">
+					<!-------null------>
+				</div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+    <tr>
