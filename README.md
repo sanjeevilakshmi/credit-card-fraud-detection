@@ -7,7 +7,7 @@ The system helps financial institutions reduce fraud risk, enhance monitoring ef
 
 <h2>🚀 Key Features</h2>
 
-<h3>👤 Remote User Module</h3>
+👤 Remote User Module
 
 ✅User registration and secure login
 
@@ -17,7 +17,7 @@ The system helps financial institutions reduce fraud risk, enhance monitoring ef
 
 ✅Track transaction history
 
-<h3>🛡️ Service Provider (Admin) Module</h3>
+🛡️ Service Provider (Admin) Module
 
 ✅Manage users and transaction records
 
@@ -27,7 +27,7 @@ The system helps financial institutions reduce fraud risk, enhance monitoring ef
 
 ✅Monitor system performance
 
-<h3>🤖 Machine Learning Features</h3>
+🤖 Machine Learning Features
 
 ✅Data preprocessing and feature engineering
 
