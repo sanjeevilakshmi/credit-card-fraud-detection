@@ -1,8 +1,8 @@
-🧠 A Suspicious Financial Transaction Detection Model using Boosting Techniques
+#🧠 A Suspicious Financial Transaction Detection Model using Boosting Techniques
 
-A machine learning–based system designed to detect suspicious and fraudulent financial transactions using boosting algorithms.
+A **machine learning–based system** designed to detect suspicious and fraudulent financial transactions using boosting algorithms.
 This project improves transaction security by analyzing financial data patterns and classifying transactions as legitimate or suspicious with high accuracy.
-
+---
 The system helps financial institutions reduce fraud risk, enhance monitoring efficiency, and ensure secure digital transactions.
 
 🚀 Key Features
