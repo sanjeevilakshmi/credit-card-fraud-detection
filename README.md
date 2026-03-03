@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Suspicious Financial Transaction Detection</title>
-</head>
-<body>
+
 
 <h1>🧠 A Suspicious Financial Transaction Detection Model using Boosting Techniques</h1>
 
@@ -154,6 +149,7 @@ python manage.py runserver
 <h2>🧩 Project Structure</h2>
 
 <pre>
+    
 credit_card_fraud_detection/
 │
 ├── credit_card_fraud_detection/
@@ -164,9 +160,34 @@ credit_card_fraud_detection/
 │   ├── wsgi.py
 │
 ├── Remote_User/
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+│
 ├── Service_Provider/
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── app.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+│
 ├── static/
+│   └── images/
+│
 ├── Template/
+│   └── htmls/
+│       ├── RUser/
+│       ├── SProvider/
+│       └── images/
+│
 └── manage.py
 </pre>
 
@@ -185,7 +206,6 @@ credit_card_fraud_detection/
 
 <h2>💡 Future Enhancements</h2>
 <ul>
-    <li>Integrate Deep Learning models</li>
     <li>Real-time transaction monitoring</li>
     <li>Analytics dashboard with charts</li>
     <li>Cloud deployment (AWS / Azure)</li>
