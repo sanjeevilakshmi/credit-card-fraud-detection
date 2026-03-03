@@ -5,9 +5,9 @@ This project improves transaction security by analyzing financial data patterns 
 
 The system helps financial institutions reduce fraud risk, enhance monitoring efficiency, and ensure secure digital transactions.
 
-🚀 Key Features
+<h2>🚀 Key Features</h2>
 
-👤 Remote User Module
+<h3>👤 Remote User Module</h3>
 
 ✅User registration and secure login
 
@@ -17,7 +17,7 @@ The system helps financial institutions reduce fraud risk, enhance monitoring ef
 
 ✅Track transaction history
 
-🛡️ Service Provider (Admin) Module
+<h3>🛡️ Service Provider (Admin) Module</h3>
 
 ✅Manage users and transaction records
 
@@ -27,7 +27,7 @@ The system helps financial institutions reduce fraud risk, enhance monitoring ef
 
 ✅Monitor system performance
 
-🤖 Machine Learning Features
+<h3>🤖 Machine Learning Features</h3>
 
 ✅Data preprocessing and feature engineering
 
