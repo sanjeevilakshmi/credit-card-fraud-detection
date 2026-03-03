@@ -5,37 +5,37 @@ This project improves transaction security by analyzing financial data patterns 
 
 The system helps financial institutions reduce fraud risk, enhance monitoring efficiency, and ensure secure digital transactions.
 
-##🚀 Key Features
+🚀 Key Features
 
 👤 Remote User Module
 
--User registration and secure login
+✅User registration and secure login
 
--Upload transaction data
+✅Upload transaction data
 
--View prediction results (Normal / Fraudulent)
+✅View prediction results (Normal / Fraudulent)
 
--Track transaction history
+✅Track transaction history
 
 🛡️ Service Provider (Admin) Module
 
--Manage users and transaction records
+✅Manage users and transaction records
 
--Train and test machine learning models
+✅Train and test machine learning models
 
--View suspicious transaction reports
+✅View suspicious transaction reports
 
--Monitor system performance
+✅Monitor system performance
 
 🤖 Machine Learning Features
 
--Data preprocessing and feature engineering
+✅Data preprocessing and feature engineering
 
--Fraud classification using Boosting techniques
+✅Fraud classification using Boosting techniques
 
--Risk-based transaction scoring
+✅Risk-based transaction scoring
 
--Performance evaluation using accuracy, precision, recall, and F1-score
+✅Performance evaluation using accuracy, precision, recall, and F1-score
 
 🛠️ Tech Stack
 Category	Technology
