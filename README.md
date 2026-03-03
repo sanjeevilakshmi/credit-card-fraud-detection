@@ -86,7 +86,7 @@ python manage.py createsuperuser
 python manage.py runserver
 
 Open your browser at 👉 http://127.0.0.1:8000/
-
+<pre>
 🧩 Project Structure
 credit_card_fraud_detection/
 │
@@ -127,6 +127,7 @@ credit_card_fraud_detection/
 │       └── images/
 │
 └── manage.py
+</pre>
 📊 Learning Outcomes
 
 Gained hands-on experience in Machine Learning model training and evaluation
